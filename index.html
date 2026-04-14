@@ -2,126 +2,151 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
     <link rel="icon" type="image/x-icon" href="/media/images/favicon.ico">
+    <link rel="stylesheet" href="/style.css">
     <title>Pomodoro Timer First Brainstorm</title>
   </head>
   <body>
     <header>
-        <h1>Brainstorming</h1>
-        <h1>Monday, April 6th, 2026</h1>
+        <h1 id="main-title">Brainstorming</h1>
+        <h1 id="date">Monday, April 6th, 2026</h1>
     </header>
     <main>
-        <h2>Sections</h2>
-        <nav>
-            <ol>
-                <li><a title="attendance" href="#attendance">Attendance List</a></li>
-                <li><a title="agenda" href="#agenda">Agenda</a></li>
-                <li><a title="last-meeting" href="#last-meeting">Last Meeting</a></li>
-                <li><a title="this-meeting" href="#this-meeting">This Meeting</a></li>
-                <li><a title="qcc" href="#qcc">Questions, Comments, Concerns</a></li>
-                <li><a title="diagrams" href="#diagrams">Diagrams</a></li>
-                <li><a title="recordings" href="#recordings">Recordings</a></li>
-            </ol>
-        </nav>
-        <h2 id="attendance">Attendance list</h2>
-        <ul>
-            <li>Natalin Duangpanya</li>
-            <li>Leah Kim</li>
-            <li>Annette Cher</li>
-            <li>Isabella Bayudan</li>
-            <li>Natasha Bay</li>
-        </ul>
-        <h2 id="agenda">Agenda</h2>
-        <ul>
-            <li>Features</li>
-            <li>Customizations</li>
-            <li>Design and layout</li>
-        </ul>
-        <h2 id="last-meeting">From last meeting</h2>
-        <ul>
-            <li>How much we want users to be able to customize</li>
-            <li>Minamilistic vibes?</li>
-            <li>How to make app run in the background to minimize distractions</li>
-        </ul>
-        <h2 id="this-meeting">This Meeting</h2>
-        <ul>
-            <li>What features do we want to add</li>
-            <li>Customize the length of breaks and work time</li>
-            <li>How do we differentiate from other timers?</li>
-        </ul>
-        <h2 id="qcc">Questions, comments, and concerns</h2>
-        <ul>
-            <li>What colors do we want</li>
-            <li>Circular timer? Bar? Digital Clock?</li>
-        </ul>
-        <hr>
-        <details>
-            <summary>Click to see more</summary>
-            <p>Hello hello hello hello hello </p>
-            <b>This is used to bold text</b>
-            <br>
-            <strong>This is used to indicate strong (important) text</strong>
-            <br>
-            <i>This is used to indicate italicized text</i>
-            <br>
-            <em>This is used to indicate emphasized text</em>
-            <br>
-        </details>
-        <div></div>
+        <div class="notes">
+            <div>
+                <h2>Sections</h2>
+                <nav>
+                    <ol>
+                        <li><a title="attendance" href="#attendance">Attendance List</a></li>
+                        <li><a title="agenda" href="#agenda">Agenda</a></li>
+                        <li><a title="last-meeting" href="#last-meeting">Last Meeting</a></li>
+                        <li><a title="this-meeting" href="#this-meeting">This Meeting</a></li>
+                        <li><a title="qcc" href="#qcc">Questions, Comments, Concerns</a></li>
+                        <li><a title="diagrams" href="#diagrams">Diagrams</a></li>
+                        <li><a title="recordings" href="#recordings">Recordings</a></li>
+                    </ol>
+                </nav>
+            </div>
+            <div>
+                <h2 id="attendance">Attendance list</h2>
+                <ul>
+                    <li>Natalin Duangpanya</li>
+                    <li>Leah Kim</li>
+                    <li>Annette Cher</li>
+                    <li>Isabella Bayudan</li>
+                    <li>Natasha Bay</li>
+                </ul>
+            </div>
+            <div>
+                <h2 id="agenda">Agenda</h2>
+                <ul>
+                    <li>Features</li>
+                    <li>Customizations</li>
+                    <li>Design and layout</li>
+                </ul>
+            </div>
+            <div>
+                <h2 id="last-meeting">From last meeting</h2>
+                <ul>
+                    <li>How much we want users to be able to customize</li>
+                    <li>Minamilistic vibes?</li>
+                    <li>How to make app run in the background to minimize distractions</li>
+                </ul>
+            </div>
+            <div>
+                <h2 id="this-meeting">This Meeting</h2>
+                <ul>
+                    <li>What features do we want to add</li>
+                    <li>Customize the length of breaks and work time</li>
+                    <li>How do we differentiate from other timers?</li>
+                </ul>
+            </div>
+            <div>
+                <h2 id="qcc">Questions, comments, and concerns</h2>
+                <ul>
+                    <li class="underline">What colors do we want</li>
+                    <li>Circular timer? Bar? Digital Clock?</li>
+                </ul>
+                <hr>
+                <details>
+                    <summary>Click to see more</summary>
+                    <p>Hello hello hello hello hello </p>
+                    <b>This is used to bold text</b>
+                    <br>
+                    <strong>This is used to indicate strong (important) text</strong>
+                    <br>
+                    <i>This is used to indicate italicized text</i>
+                    <br>
+                    <em>This is used to indicate emphasized text</em>
+                    <br>
+                </details>
+            </div>
+        </div>
         <span></span>
         <h2 id="diagrams">Diagrams</h2>
-        <img title="graph 1" src="media/images/graph.jpeg" height="369" width="408" alt="UML diagram describing blah blah">
-        <img title="graph 2" src="media/images/graph2.jpeg" height="291" width="434" alt="another UML diagram describing blah blah blah">
+        <div class="diagram-container">
+            <img title="graph 1" class="diagram" src="media/images/graph.jpeg" height="369" width="408" alt="UML diagram describing blah blah">
+            <img title="graph 2" class="diagram" src="media/images/graph2.jpeg" height="291" width="434" alt="another UML diagram describing blah blah blah">
+        </div>
         <section>
-            <h2 id="recordings">Recordings</h2>
-            <h3>Video Recording</h3>
-            <video controls>
-                <source src="media/videos/meeting.MP4" type="video/mp4">
-                Your browser does not support the video format.
-            </video>
-            <h3>Audio Recording</h3>
-            <audio controls>
-                <source src="media/audio/meeting.mp3" type="audio/mpeg">
-                Your browser does not support the audio format.
-            </audio>
+            <div class="recording-container">
+                <h2 id="recordings">Recordings</h2>
+                <h3>Video Recording</h3>
+                <video controls>
+                    <source src="media/videos/meeting.MP4" type="video/mp4">
+                    Your browser does not support the video format.
+                </video>
+                <h3>Audio Recording</h3>
+                <audio controls>
+                    <source src="media/audio/meeting.mp3" type="audio/mpeg">
+                    Your browser does not support the audio format.
+                </audio>
+            </div>
         </section>
     </main>
     <footer>
-        <form>
-            <fieldset>
-                <label for="name">Name: </label>
-                <input type="text" id="name" name="name"><br><br>
-                <label for="opt-in">Opt-in For Updates</label>
-                <input type="checkbox" id="opt-in" name="opt-in" value="opt-in"><br>
-                <p>Please select your projected graduation year:</p>
-                <label for="2026">2026</label>
-                <input type="radio" id="2026" value="2026" name="graduation"><br>
-                <label for="2027">2026</label>
-                <input type="radio" id="2027" value="2027" name="graduation"><br>
-                <label for="2028">2026</label>
-                <input type="radio" id="2028" value="2028" name="graduation"><br>
-                <label for="2029">2029</label>
-                <input type="radio" id="2029" value="2029" name="graduation"><br>
-                <label for ="birthday">Birthday</label>
-                <input type="date" id="birthday" name="birthday"><br><br>
-                <label for="choose">Choose:</label>
-                <select name="choose" id="choose">
-                    <option value="heads">Heads</option>
-                    <option value="tails">Tails</option>
-                </select><br><br>
-                <label for="major-input">Input your Major:</label>
-                <input list="major" id="major-input" name="major">
-                <datalist id="major">
-                    <option value="Computer Science"></option>
-                    <option value="Cognitive Science"></option>
-                    <option value="Mathematics-Computer Science"></option>
-                    <option value="ICAM"></option>
-                    <option value="Bioinformatics"></option>
-                </datalist><br><br><br>
-                <label for="question">Comments/Questions:</label>
-                <textarea id="question" name="question" rows="4" cols="30">Add any comments, questions, concerns...</textarea><br><br>
-                <button type="submit">Submit</button>
-            </fieldset>
-        </form>
+            <form>
+                <fieldset class="form">
+                    <div>
+                        <label for="name">Name: </label>
+                        <input type="text" id="name" name="name"><br><br>
+                        <label for="opt-in">Opt-in For Updates</label>
+                        <input type="checkbox" id="opt-in" name="opt-in" value="opt-in"><br>
+                        <p>Please select your projected graduation year:</p>
+                        <label for="2026">2026</label>
+                        <input type="radio" id="2026" value="2026" name="graduation"><br>
+                        <label for="2027">2026</label>
+                        <input type="radio" id="2027" value="2027" name="graduation"><br>
+                        <label for="2028">2026</label>
+                        <input type="radio" id="2028" value="2028" name="graduation"><br>
+                        <label for="2029">2029</label>
+                        <input type="radio" id="2029" value="2029" name="graduation"><br>
+                        <label for ="birthday">Birthday</label>
+                        <input type="date" id="birthday" name="birthday"><br><br>
+                    </div>
+                    <div>
+                        <label for="choose">Choose:</label>
+                        <select name="choose" id="choose">
+                            <option value="heads">Heads</option>
+                            <option value="tails">Tails</option>
+                        </select><br><br>
+                        <label for="major-input">Input your Major:</label>
+                        <input list="major" id="major-input" name="major">
+                        <datalist id="major">
+                            <option value="Computer Science"></option>
+                            <option value="Cognitive Science"></option>
+                            <option value="Mathematics-Computer Science"></option>
+                            <option value="ICAM"></option>
+                            <option value="Bioinformatics"></option>
+                        </datalist><br><br><br>
+                        <label for="question">Comments/Questions:</label>
+                        <textarea id="question" name="question" rows="4" cols="30">Add any comments, questions, concerns...</textarea><br><br>
+                        <button type="submit">Submit</button>
+                    </div>
+                </fieldset>
+            </form>
     </footer>
 </html>
