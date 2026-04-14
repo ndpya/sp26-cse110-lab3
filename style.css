@@ -16,6 +16,9 @@ body{
 }
 
 #main-title{
+    /* Fallback */
+    color: rgb(135, 152, 106); 
+    /* Gamut color */
     color: color(display-p3 0.529412 0.596078 0.415686 / 1.000000);
 }
 
@@ -62,7 +65,7 @@ strong.special{
     grid-template-rows: repeat(2, 1fr);
     grid-auto-flow: column;
     gap: 20px;
-    height:400;
+    height: 500px;
     position: relative;
 }
 
@@ -152,6 +155,6 @@ a[href="#this-meeting"]{
 
 form {
     &:hover{
-        color:rgb(136, 153, 135)
+        color:rgb(136, 153, 135);
     }
 }
