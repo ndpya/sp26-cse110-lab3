@@ -36,6 +36,26 @@ a{
     color: #b98b91
 }
 
+h2, h3{
+    color: #c58e8e
+}
+
+ul li{
+    list-style-type: square;
+}
+
+li ~ li{
+    color: #64826b
+}
+
+p + b{
+    color: rgb(204, 150, 179)
+}
+
+strong.special{
+    color: rgb(163, 150, 204)
+}
+
 .notes{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -44,6 +64,12 @@ a{
     gap: 20px;
     height:400;
     position: relative;
+}
+
+.notes > div{
+    background-color:#dfbfbf; 
+    padding: 10px;
+    border-radius:5px;
 }
 
 summary:hover{
@@ -86,6 +112,12 @@ details:active{
     margin: 10px 10px 10px 10px ;
 }
 
+div:has(audio){
+    background-color:#dfbfbf; 
+    padding: 10px;
+    border-radius:5px;
+}
+
 video{
     display: inline;
     height: auto;
@@ -112,4 +144,14 @@ audio{
     padding-left: 2vw;
     padding-right: 2vw;
     text-align:left;
+}
+
+a[href="#this-meeting"]{
+    color:rgb(136, 153, 135)
+}
+
+form {
+    &:hover{
+        color:rgb(136, 153, 135)
+    }
 }
