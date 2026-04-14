@@ -1,3 +1,3 @@
-# Lab 2 - Starter
+# Lab 3 - CSS and Agile Ubtri
 
-[Link to Published site](https://ndpya.github.io/Lab2_Starter/)
+[Link to Published site](https://ndpya.github.io/sp26-cse110-lab3/)
