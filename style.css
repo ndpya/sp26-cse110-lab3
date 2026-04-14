@@ -33,28 +33,33 @@ body{
     text-decoration-thickness: 3px;
 }
 
-/** Notes Section **/
 
+/** element selector **/
 a{
     color: #b98b91
 }
 
+/** selector list **/
 h2, h3{
     color: #c58e8e
 }
 
+/** descendant combinator **/
 ul li{
     list-style-type: square;
 }
 
+/** general sibling combinator **/
 li ~ li{
     color: #64826b
 }
 
+/** adjacent sibling combinator **/
 p + b{
     color: rgb(204, 150, 179)
 }
 
+/** combining two selectors **/
 strong.special{
     color: rgb(163, 150, 204)
 }
@@ -87,8 +92,6 @@ details:active{
     color: plum;
 }
 
-/** Diagrams Section **/
-
 .diagram{
     margin-top: 10px;
     margin-bottom: 10px;
@@ -106,8 +109,6 @@ details:active{
     gap: 20px;
 }
 
-/** Recording Section **/
-
 .recording-container{
     display: grid;
     grid-template-rows: auto;
@@ -115,6 +116,7 @@ details:active{
     margin: 10px 10px 10px 10px ;
 }
 
+/** new :has() selector **/
 div:has(audio){
     background-color:#dfbfbf; 
     padding: 10px;
@@ -149,10 +151,12 @@ audio{
     text-align:left;
 }
 
+
 a[href="#this-meeting"]{
     color:rgb(136, 153, 135)
 }
 
+/** nested selectors **/
 form {
     &:hover{
         color:rgb(136, 153, 135);
